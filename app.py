@@ -210,7 +210,7 @@ def chat():
         from groq import Groq
         client = Groq(api_key=os.environ.get('GROQ_API_KEY'))
         completion = client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="llama-3.1-8b-instant",
             messages=[
                 {"role": "system", "content": SYSTEM_PROMPT},
                 {"role": "user", "content": user_message}
@@ -221,8 +221,8 @@ def chat():
         bot_response = completion.choices[0].message.content
 
     except Exception as e:
-        print(f"GROK error: {e}")
-        # Fallback ke SVM kalau GROK error
+        print(f"GROQ error: {e}")
+        # Fallback ke SVM kalau GROQ error
         try:
             result = get_response(user_message)
             bot_response = result['response']
