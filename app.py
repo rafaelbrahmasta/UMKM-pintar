@@ -472,5 +472,4 @@ if __name__ == '__main__':
     print("  UMKM PINTAR SERVER")
     print("=" * 50)
     init_db()
-    cek_ollama()
     app.run(debug=True, host='0.0.0.0', port=5000)
