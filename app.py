@@ -208,7 +208,7 @@ def chat():
 
     try:
         from groq import Groq
-        client = Groq(api_key=os.environ.get('GROK_API_KEY'))
+        client = Groq(api_key=os.environ.get('GROQ_API_KEY'))
         completion = client.chat.completions.create(
             model="llama3-8b-8192",
             messages=[
