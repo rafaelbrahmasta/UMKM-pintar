@@ -201,76 +201,52 @@ def chat():
     data = request.get_json()
     if not data:
         return jsonify({'error': 'Data tidak valid'}), 400
- 
-    user_message   = data.get('message', '').strip()
-    session_id     = data.get('session_id', 'default')
-    bot_response   = None
-    source         = 'tfidf'
-    predicted_tag  = 'unknown'
-    confidence_pct = 0
- 
+
+    user_message = data.get('message', '').strip()
     if not user_message:
-        return jsonify({'response': 'Pesan tidak boleh kosong.', 'tag': 'error', 'confidence': 0})
- 
-    # ── MODE 1: OLLAMA ──
-    if OLLAMA_READY:
+        return jsonify({'response': 'Pesan tidak boleh kosong.', 'tag': 'umkm', 'confidence': 100})
+
+    try:
+        from GROK import GROK
+        client = GROK(api_key=os.environ.get('GROK_API_KEY'))
+        
+        completion = client.chat.completions.create(
+            model="llama3-8b-8192",
+            messages=[
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": user_message}
+            ],
+            max_tokens=1024,
+            temperature=0.7
+        )
+        bot_response = completion.choices[0].message.content
+
+    except Exception as e:
+        print(f"GROK error: {e}")
+        # Fallback ke SVM kalau GROK error
         try:
-            if session_id not in chat_sessions:
-                chat_sessions[session_id] = []
-            bot_response = tanya_ollama(user_message, chat_sessions[session_id])
-            chat_sessions[session_id].append({"role": "user",      "content": user_message})
-            chat_sessions[session_id].append({"role": "assistant",  "content": bot_response})
-            if len(chat_sessions[session_id]) > 20:
-                chat_sessions[session_id] = chat_sessions[session_id][-20:]
-            source         = 'ollama'
-            predicted_tag  = 'ollama'
-            confidence_pct = 99.0
-        except Exception as e:
-            print(f"⚠️  Ollama error: {e} — fallback ke TF-IDF")
-            bot_response = None
- 
-    # ── MODE 2: TF-IDF fallback ──
-    if bot_response is None:
-        if not model:
-            return jsonify({'response': 'Model tidak tersedia.', 'tag': 'error', 'confidence': 0, 'source': 'none'})
-        try:
-            processed     = preprocess(user_message)
-            predicted_tag = model.predict([processed])[0]
-            scores        = model.decision_function([processed])[0]
-            classes       = list(model.classes_)
-            exp_scores    = np.exp(scores - np.max(scores))
-            proba         = exp_scores / exp_scores.sum()
-            confidence    = float(proba[classes.index(predicted_tag)])
-            if confidence < 0.05:
-                predicted_tag = 'fallback'
-            responses      = responses_map.get(predicted_tag, responses_map.get('fallback', ['Maaf, saya belum mengerti.']))
-            bot_response   = random.choice(responses)
-            confidence_pct = round(confidence * 100, 1)
-            source         = 'tfidf'
-        except Exception as e:
-            print(f"TF-IDF error: {e}")
-            bot_response   = "Maaf, ada kesalahan saat memproses pertanyaanmu."
-            predicted_tag  = 'error'
-            confidence_pct = 0
- 
+            result = get_response(user_message)
+            bot_response = result['response']
+        except:
+            bot_response = "Maaf, sistem sedang gangguan. Coba lagi!"
+
     # Simpan ke database
     try:
         conn = sqlite3.connect(DATABASE)
         cursor = conn.cursor()
         cursor.execute(
-            'INSERT INTO chat_logs (user_message, bot_response, confidence, source) VALUES (?, ?, ?, ?)',
-            (user_message, bot_response, confidence_pct, source)
+            'INSERT INTO chat_logs (user_message, bot_response, confidence) VALUES (?, ?, ?)',
+            (user_message, bot_response, 100)
         )
         conn.commit()
         conn.close()
     except Exception as e:
         print(f"DB error: {e}")
- 
+
     return jsonify({
         'response':   bot_response,
-        'tag':        predicted_tag,
-        'confidence': confidence_pct,
-        'source':     source,
+        'tag':        'umkm',
+        'confidence': 100,
         'timestamp':  datetime.now().strftime('%H:%M')
     })
  
