@@ -207,9 +207,8 @@ def chat():
         return jsonify({'response': 'Pesan tidak boleh kosong.', 'tag': 'umkm', 'confidence': 100})
 
     try:
-        from GROK import GROK
-        client = GROK(api_key=os.environ.get('GROK_API_KEY'))
-        
+        from groq import Groq
+        client = Groq(api_key=os.environ.get('GROK_API_KEY'))
         completion = client.chat.completions.create(
             model="llama3-8b-8192",
             messages=[
