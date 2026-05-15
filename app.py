@@ -364,8 +364,7 @@ def dashboard_data():
         latest = cursor.fetchone()
         cursor.execute('SELECT SUM(total_pendapatan), SUM(laba_bersih) FROM data_bulanan')
         totals = cursor.fetchone()
-        cursor.execute('''SELECT bulan, total_pendapatan, laba_bersih, margin_profit
-            FROM data_bulanan ORDER BY tahun ASC, id ASC LIMIT 12''')
+        cursor.execute('''SELECT bulan, tahun, total_pendapatan, hpp, biaya_operasional, biaya_pemasaran, biaya_lain, laba_kotor, laba_bersih, margin_profit FROM data_bulanan ORDER BY tahun ASC, id ASC LIMIT 12''')
         history = cursor.fetchall()
         conn.close()
         if not latest:
@@ -377,7 +376,9 @@ def dashboard_data():
                        'biaya_lain': latest[6], 'laba_kotor': latest[7], 'laba_bersih': latest[8], 'margin': latest[9]},
             'total_pendapatan': totals[0] or 0,
             'total_laba':       totals[1] or 0,
-            'history': [{'bulan': r[0], 'pendapatan': r[1], 'laba': r[2], 'margin': r[3]} for r in history],
+            'history': [{'bulan': r[0], 'tahun': r[1], 'total_pendapatan': r[2], 'hpp': r[3], 
+             'biaya_operasional': r[4], 'biaya_pemasaran': r[5], 'biaya_lain': r[6],
+             'laba_kotor': r[7], 'laba_bersih': r[8], 'margin_profit': r[9]} for r in history],
         })
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 500
