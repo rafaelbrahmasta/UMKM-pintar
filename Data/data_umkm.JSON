@@ -1,0 +1,27 @@
+{
+  "nama_umkm": "UMKM Pintar",
+  "jenis_usaha": "Makanan",
+  "riwayat_keuangan": [
+    {
+      "bulan": "Mei 2026",
+      "pendapatan": 24500000,
+      "hpp": 14700000,
+      "biaya_operasional": 2800000,
+      "tanggal": "2026-05-12"
+    },
+    {
+      "bulan": "April 2026",
+      "pendapatan": 21800000,
+      "hpp": 13100000,
+      "biaya_operasional": 2500000,
+      "tanggal": "2026-04-10"
+    },
+    {
+      "bulan": "Maret 2026",
+      "pendapatan": 19300000,
+      "hpp": 12500000,
+      "biaya_operasional": 2200000,
+      "tanggal": "2026-03-15"
+    }
+  ]
+}

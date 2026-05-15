@@ -1,0 +1,336 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "halo",
+        "haloo",
+        "halooo",
+        "haloooo",
+        "hai",
+        "haii",
+        "helo",
+        "hello",
+        "hei",
+        "selamat pagi",
+        "selamat siang",
+        "selamat malam",
+        "permisi",
+        "halo bot",
+        "hi",
+        "hii",
+        "assalamualaikum",
+        "pagi",
+        "siang",
+        "malam",
+        "apa kabar",
+        "gimana kabarnya",
+        "halo umkm pintar",
+        "hai umkm",
+        "assalamualaikum bot"
+      ],
+      "responses": [
+        "Halo juga 👋 Ada yang bisa saya bantu?",
+        "Hai! Selamat datang di UMKM Pintar 😊",
+        "Halo, semoga bisnis kamu makin sukses 💪"
+      ]
+    },
+
+    {
+      "tag": "perpisahan",
+      "patterns": [
+        "bye",
+        "dadah",
+        "sampai jumpa",
+        "terima kasih",
+        "makasih",
+        "thanks",
+        "oke makasih",
+        "sudah cukup",
+        "selesai",
+        "dah",
+        "sukses"
+      ],
+      "responses": [
+        "Sama-sama! Semoga bisnis kamu semakin sukses! 💪",
+        "Terima kasih! Sukses selalu untuk UMKM kamu ✨"
+      ]
+    },
+
+    {
+      "tag": "laba_kotor",
+      "patterns": [
+        "laba kotor",
+        "gross profit",
+        "cara hitung laba kotor",
+        "rumus laba kotor"
+      ],
+      "responses": [
+        "💰 Laba Kotor = Pendapatan - HPP. Mau saya hitungkan?"
+      ]
+    },
+
+    {
+      "tag": "laba_bersih",
+      "patterns": [
+        "laba bersih",
+        "net profit",
+        "cara hitung laba bersih",
+        "profit bersih"
+      ],
+      "responses": [
+        "💵 Laba Bersih = Laba Kotor - Biaya Operasional. Mau dihitung?"
+      ]
+    },
+
+    {
+      "tag": "bep",
+      "patterns": [
+        "bep",
+        "break even point",
+        "titik impas",
+        "cara hitung bep",
+        "kapan balik modal"
+      ],
+      "responses": [
+        "📊 BEP adalah titik impas. Mau saya hitung BEP bisnis kamu?"
+      ]
+    },
+
+    {
+      "tag": "hpp",
+      "patterns": [
+        "hpp",
+        "harga pokok penjualan",
+        "harga pokok produksi",
+        "cara hitung hpp"
+      ],
+      "responses": [
+        "🏭 HPP adalah biaya produksi barang. Mau dihitung per unit?"
+      ]
+    },
+
+    {
+      "tag": "margin_profit",
+      "patterns": [
+        "margin profit",
+        "profit margin",
+        "gross margin",
+        "net margin"
+      ],
+      "responses": [
+        "📈 Margin Profit menunjukkan persentase keuntungan. Mau dianalisis?"
+      ]
+    },
+
+    {
+      "tag": "modal_usaha",
+      "patterns": [
+        "modal usaha",
+        "cara dapat modal",
+        "pinjaman umkm",
+        "kur",
+        "bpum",
+        "modal awal"
+      ],
+      "responses": [
+        "💳 Mau rekomendasi sumber modal yang cocok untuk usaha kamu?"
+      ]
+    },
+
+    {
+      "tag": "arus_kas",
+      "patterns": [
+        "arus kas",
+        "cash flow",
+        "manajemen arus kas",
+        "uang habis padahal untung"
+      ],
+      "responses": [
+        "💸 Arus kas sangat penting. Mau tips kelola cash flow?"
+      ]
+    },
+
+    {
+      "tag": "strategi_pemasaran",
+      "patterns": [
+        "strategi pemasaran",
+        "cara promosi",
+        "marketing umkm",
+        "cara jualan online",
+        "social media marketing"
+      ],
+      "responses": [
+        "📢 Mau strategi pemasaran dengan modal kecil atau agresif?"
+      ]
+    },
+
+    {
+      "tag": "pembukuan",
+      "patterns": [
+        "pembukuan",
+        "laporan keuangan",
+        "cara catat keuangan",
+        "buku kas"
+      ],
+      "responses": [
+        "📋 Pembukuan yang rapi adalah kunci bisnis sehat."
+      ]
+    },
+
+    {
+      "tag": "pajak",
+      "patterns": [
+        "pajak umkm",
+        "ppn",
+        "pph",
+        "cara hitung pajak",
+        "pajak final"
+      ],
+      "responses": [
+        "🧾 UMKM omzet di bawah Rp500 juta bebas pajak."
+      ]
+    },
+
+    {
+      "tag": "izin_usaha",
+      "patterns": [
+        "izin usaha",
+        "nib",
+        "oss",
+        "legalitas usaha",
+        "siup",
+        "halal"
+      ],
+      "responses": [
+        "📜 NIB sekarang wajib untuk UMKM."
+      ]
+    },
+
+    {
+      "tag": "stok",
+      "patterns": [
+        "manajemen stok",
+        "persediaan barang",
+        "fifo",
+        "stok habis",
+        "inventory"
+      ],
+      "responses": [
+        "📦 Mau tips mengelola stok agar tidak rugi?"
+      ]
+    },
+
+    {
+      "tag": "harga_jual",
+      "patterns": [
+        "harga jual",
+        "cara tentukan harga",
+        "pricing",
+        "markup"
+      ],
+      "responses": [
+        "💰 Mau cara menentukan harga jual yang menguntungkan?"
+      ]
+    },
+
+    {
+      "tag": "digitalisasi",
+      "patterns": [
+        "digitalisasi",
+        "jualan online",
+        "shopee",
+        "tokopedia",
+        "tiktok shop",
+        "qris"
+      ],
+      "responses": [
+        "💻 Mau panduan digitalisasi UMKM dari nol?"
+      ]
+    },
+
+    {
+      "tag": "swot",
+      "patterns": [
+        "swot",
+        "analisis swot",
+        "strength weakness"
+      ],
+      "responses": [
+        "🔍 Mau saya bantu buat analisis SWOT bisnis kamu?"
+      ]
+    },
+
+    {
+      "tag": "kompetitor",
+      "patterns": [
+        "kompetitor",
+        "saingan",
+        "unique selling point",
+        "usp"
+      ],
+      "responses": [
+        "🎯 Mau tips mengalahkan kompetitor tanpa perang harga?"
+      ]
+    },
+
+    {
+      "tag": "roi",
+      "patterns": [
+        "roi",
+        "return on investment",
+        "balik modal berapa lama"
+      ],
+      "responses": [
+        "📊 ROI adalah ukuran keuntungan investasi."
+      ]
+    },
+
+    {
+      "tag": "kalkulator",
+      "patterns": [
+        "kalkulator",
+        "hitung",
+        "bantu hitung",
+        "kalkulasi"
+      ],
+      "responses": [
+        "🧮 Saya bisa bantu hitung Laba, BEP, HPP, dll."
+      ]
+    },
+
+    {
+      "tag": "analisis",
+      "patterns": [
+        "analisis bisnis",
+        "performa bisnis",
+        "skor bisnis",
+        "sehat tidak bisnis saya"
+      ],
+      "responses": [
+        "📊 Mau lihat analisis performa bisnis kamu?"
+      ]
+    },
+
+    {
+      "tag": "fallback",
+      "patterns": [
+        "random",
+        "tidak tahu",
+        "tidak mengerti",
+        "apa saja",
+        "bisa apa",
+        "tolong",
+        "help",
+        "menu",
+        "gimana",
+        "nggak paham",
+        "bingung",
+        "???"
+      ],
+      "responses": [
+        "🤖 Maaf, saya belum paham pertanyaanmu.\n\nSaya bisa bantu tentang:\n• Laba\n• BEP\n• HPP\n• Margin\n• Modal Usaha\n• Marketing\n• Legalitas UMKM\n• Pajak\n• Digitalisasi UMKM 😊"
+      ]
+    }
+  ]
+}

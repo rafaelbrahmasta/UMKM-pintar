@@ -1,0 +1,195 @@
+modal,lokasi,skill,target_pasar,rekomendasi
+
+
+modal,lokasi,skill,target_pasar,rekomendasi
+kecil,kota_kecil,masak,semua_kalangan,Warung Makan
+kecil,kota_kecil,masak,ibu_rumah_tangga,Warung Makan
+kecil,kota_kecil,masak,pelajar,Kantin Sekolah
+kecil,kota_kecil,masak,pekerja,Warung Makan
+kecil,kota_kecil,jahit,semua_kalangan,Jasa Jahit
+kecil,kota_kecil,jahit,ibu_rumah_tangga,Jasa Jahit
+kecil,kota_kecil,jahit,pelajar,Jasa Jahit
+kecil,kota_kecil,jahit,pekerja,Jasa Jahit
+kecil,kota_kecil,teknologi,semua_kalangan,Jasa Print
+kecil,kota_kecil,teknologi,pelajar,Jasa Print
+kecil,kota_kecil,teknologi,pekerja,Jasa Print
+kecil,kota_kecil,teknologi,ibu_rumah_tangga,Jasa Print
+kecil,kota_kecil,seni,semua_kalangan,Jual Kerajinan Tangan
+kecil,kota_kecil,seni,ibu_rumah_tangga,Jual Kerajinan Tangan
+kecil,kota_kecil,seni,pelajar,Jual Kerajinan Tangan
+kecil,kota_kecil,seni,pekerja,Jual Kerajinan Tangan
+kecil,kota_kecil,pertanian,semua_kalangan,Jual Sayuran
+kecil,kota_kecil,pertanian,ibu_rumah_tangga,Jual Sayuran
+kecil,kota_kecil,pertanian,pelajar,Jual Sayuran
+kecil,kota_kecil,pertanian,pekerja,Jual Sayuran
+kecil,kota_besar,masak,semua_kalangan,Warung Makan
+kecil,kota_besar,masak,ibu_rumah_tangga,Warung Makan
+kecil,kota_besar,masak,pelajar,Kantin Sekolah
+kecil,kota_besar,masak,pekerja,Warung Makan
+kecil,kota_besar,jahit,semua_kalangan,Jasa Jahit
+kecil,kota_besar,jahit,ibu_rumah_tangga,Jasa Jahit
+kecil,kota_besar,jahit,pelajar,Jasa Jahit
+kecil,kota_besar,jahit,pekerja,Jasa Laundry
+kecil,kota_besar,teknologi,semua_kalangan,Jasa Print
+kecil,kota_besar,teknologi,pelajar,Les Komputer
+kecil,kota_besar,teknologi,pekerja,Jasa Desain Grafis
+kecil,kota_besar,teknologi,ibu_rumah_tangga,Jasa Print
+kecil,kota_besar,seni,semua_kalangan,Jual Kerajinan Tangan
+kecil,kota_besar,seni,ibu_rumah_tangga,Jual Kerajinan Tangan
+kecil,kota_besar,seni,pelajar,Kursus Menggambar
+kecil,kota_besar,seni,pekerja,Jual Kerajinan Tangan
+kecil,kota_besar,pertanian,semua_kalangan,Jual Sayuran
+kecil,kota_besar,pertanian,ibu_rumah_tangga,Jual Sayuran
+kecil,kota_besar,pertanian,pelajar,Jual Sayuran
+kecil,kota_besar,pertanian,pekerja,Jual Sayuran
+sedang,kota_kecil,masak,semua_kalangan,Rumah Makan
+sedang,kota_kecil,masak,ibu_rumah_tangga,Rumah Makan
+sedang,kota_kecil,masak,pelajar,Kantin Sekolah
+sedang,kota_kecil,masak,pekerja,Katering Kantor
+sedang,kota_kecil,jahit,semua_kalangan,Toko Baju
+sedang,kota_kecil,jahit,ibu_rumah_tangga,Toko Baju
+sedang,kota_kecil,jahit,pelajar,Toko Baju
+sedang,kota_kecil,jahit,pekerja,Toko Baju
+sedang,kota_kecil,teknologi,semua_kalangan,Toko Aksesoris HP
+sedang,kota_kecil,teknologi,pelajar,Toko Aksesoris HP
+sedang,kota_kecil,teknologi,pekerja,Jasa Servis HP
+sedang,kota_kecil,teknologi,ibu_rumah_tangga,Toko Aksesoris HP
+sedang,kota_kecil,seni,semua_kalangan,Galeri Seni Kecil
+sedang,kota_kecil,seni,ibu_rumah_tangga,Galeri Seni Kecil
+sedang,kota_kecil,seni,pelajar,Galeri Seni Kecil
+sedang,kota_kecil,seni,pekerja,Galeri Seni Kecil
+sedang,kota_kecil,pertanian,semua_kalangan,Toko Sembako
+sedang,kota_kecil,pertanian,ibu_rumah_tangga,Toko Tanaman Hias
+sedang,kota_kecil,pertanian,pelajar,Toko Sembako
+sedang,kota_kecil,pertanian,pekerja,Toko Sembako
+sedang,kota_besar,masak,semua_kalangan,Franchise Minuman
+sedang,kota_besar,masak,ibu_rumah_tangga,Franchise Minuman
+sedang,kota_besar,masak,pelajar,Bubble Tea Shop
+sedang,kota_besar,masak,pekerja,Katering Kantor
+sedang,kota_besar,jahit,semua_kalangan,Butik Fashion
+sedang,kota_besar,jahit,ibu_rumah_tangga,Butik Fashion
+sedang,kota_besar,jahit,pelajar,Butik Fashion
+sedang,kota_besar,jahit,pekerja,Jasa Laundry
+sedang,kota_besar,teknologi,semua_kalangan,Toko Gadget
+sedang,kota_besar,teknologi,pelajar,Kursus Online
+sedang,kota_besar,teknologi,pekerja,Jasa IT Support
+sedang,kota_besar,teknologi,ibu_rumah_tangga,Toko Gadget
+sedang,kota_besar,seni,semua_kalangan,Studio Foto
+sedang,kota_besar,seni,ibu_rumah_tangga,Studio Foto
+sedang,kota_besar,seni,pelajar,Kursus Musik
+sedang,kota_besar,seni,pekerja,Studio Foto
+sedang,kota_besar,pertanian,semua_kalangan,Toko Sembako
+sedang,kota_besar,pertanian,ibu_rumah_tangga,Toko Tanaman Hias
+sedang,kota_besar,pertanian,pelajar,Toko Sembako
+sedang,kota_besar,pertanian,pekerja,Toko Sembako
+besar,kota_kecil,masak,semua_kalangan,Rumah Makan Besar
+besar,kota_kecil,masak,ibu_rumah_tangga,Rumah Makan Besar
+besar,kota_kecil,masak,pelajar,Rumah Makan Besar
+besar,kota_kecil,masak,pekerja,Catering Besar
+besar,kota_kecil,jahit,semua_kalangan,Toko Fashion
+besar,kota_kecil,jahit,ibu_rumah_tangga,Toko Fashion
+besar,kota_kecil,jahit,pelajar,Toko Fashion
+besar,kota_kecil,jahit,pekerja,Toko Fashion
+besar,kota_kecil,teknologi,semua_kalangan,Toko Elektronik
+besar,kota_kecil,teknologi,pelajar,Toko Elektronik
+besar,kota_kecil,teknologi,pekerja,Toko Elektronik
+besar,kota_kecil,teknologi,ibu_rumah_tangga,Toko Elektronik
+besar,kota_kecil,seni,semua_kalangan,Toko Alat Musik
+besar,kota_kecil,seni,ibu_rumah_tangga,Toko Alat Musik
+besar,kota_kecil,seni,pelajar,Toko Alat Musik
+besar,kota_kecil,seni,pekerja,Toko Alat Musik
+besar,kota_kecil,pertanian,semua_kalangan,Minimarket
+besar,kota_kecil,pertanian,ibu_rumah_tangga,Toko Pupuk dan Bibit
+besar,kota_kecil,pertanian,pelajar,Minimarket
+besar,kota_kecil,pertanian,pekerja,Minimarket
+besar,kota_besar,masak,semua_kalangan,Restoran
+besar,kota_besar,masak,ibu_rumah_tangga,Restoran
+besar,kota_besar,masak,pelajar,Restoran
+besar,kota_besar,masak,pekerja,Katering Besar
+besar,kota_besar,jahit,semua_kalangan,Toko Fashion
+besar,kota_besar,jahit,ibu_rumah_tangga,Toko Fashion
+besar,kota_besar,jahit,pelajar,Toko Fashion
+besar,kota_besar,jahit,pekerja,Toko Fashion
+besar,kota_besar,teknologi,semua_kalangan,Toko Komputer
+besar,kota_besar,teknologi,pelajar,Toko Komputer
+besar,kota_besar,teknologi,pekerja,Startup Teknologi
+besar,kota_besar,teknologi,ibu_rumah_tangga,Toko Komputer
+besar,kota_besar,seni,semua_kalangan,Event Organizer
+besar,kota_besar,seni,ibu_rumah_tangga,Event Organizer
+besar,kota_besar,seni,pelajar,Kursus Musik
+besar,kota_besar,seni,pekerja,Studio Kreatif
+besar,kota_besar,pertanian,semua_kalangan,Supermarket Kecil
+besar,kota_besar,pertanian,ibu_rumah_tangga,Supermarket Kecil
+besar,kota_besar,pertanian,pelajar,Supermarket Kecil
+besar,kota_besar,pertanian,pekerja,Supermarket Kecil
+# Dataset UMKM Recommendation System
+
+Format CSV:
+
+```csv
+provinsi,kota,kecamatan,kategori_daerah,modal,skill,target_pasar,rekomendasi
+Jawa Tengah,Surakarta,Banjarsari,kampus,kecil,masak,pelajar,Rice Bowl Mahasiswa
+Jawa Tengah,Surakarta,Jebres,kampus,kecil,teknologi,pelajar,Jasa Print Tugas
+Jawa Tengah,Surakarta,Laweyan,perumahan,sedang,masak,keluarga,Catering Rumahan
+Jawa Tengah,Surakarta,Serengan,pasar,kecil,dagang,semua_kalangan,Sembako Mini
+Jawa Tengah,Karanganyar,Tawangmangu,wisata,sedang,masak,wisatawan,Kuliner Tradisional
+Jawa Tengah,Karanganyar,Colomadu,perumahan,sedang,teknologi,pekerja,Jasa WiFi Rumahan
+Jawa Tengah,Sukoharjo,Grogol,kampus,kecil,minuman,pelajar,Es Teh Jumbo
+Jawa Tengah,Sukoharjo,Kartasura,kampus,kecil,masak,pelajar,Ayam Geprek Mahasiswa
+Jawa Tengah,Semarang,Tembalang,kampus,sedang,masak,mahasiswa,Coffee Shop Mahasiswa
+Jawa Tengah,Semarang,Banyumanik,perumahan,sedang,teknologi,keluarga,Jasa CCTV Rumah
+Jawa Tengah,Magelang,Borobudur,wisata,besar,seni,wisatawan,Toko Souvenir
+Jawa Tengah,Pekalongan,Pekalongan Barat,industri,sedang,jahit,pekerja,Konveksi Kaos
+Jawa Tengah,Kudus,Kota Kudus,industri,sedang,dagang,pekerja,Warung Makan Pekerja
+Jawa Tengah,Jepara,Tahunan,industri,besar,seni,ekspor,Meubel Ukir
+Jawa Tengah,Boyolali,Ngemplak,perumahan,kecil,minuman,keluarga,Angkringan Modern
+Jawa Timur,Malang,Lowokwaru,kampus,kecil,masak,mahasiswa,Rice Bowl Mahasiswa
+Jawa Timur,Malang,Blimbing,perumahan,sedang,teknologi,keluarga,Jasa Service Laptop
+Jawa Timur,Surabaya,Sukolilo,kampus,sedang,teknologi,mahasiswa,Jasa Pembuatan Website
+Jawa Timur,Surabaya,Rungkut,industri,sedang,masak,pekerja,Warung Lalapan
+Jawa Timur,Batu,Bumiaji,wisata,sedang,seni,wisatawan,Cafe View Wisata
+Jawa Timur,Kediri,Kota Kediri,pasar,kecil,dagang,semua_kalangan,Toko Kelontong
+Jawa Timur,Jember,Sumbersari,kampus,kecil,minuman,pelajar,Kedai Kopi Mahasiswa
+Jawa Barat,Bandung,Coblong,kampus,sedang,seni,anak_muda,Clothing Brand Lokal
+Jawa Barat,Bandung,Lembang,wisata,sedang,masak,wisatawan,Kopi Susu Wisata
+Jawa Barat,Bekasi,Bekasi Selatan,perumahan,sedang,teknologi,keluarga,Laundry Express
+Jawa Barat,Depok,Beji,kampus,kecil,teknologi,mahasiswa,Jasa Desain Grafis
+Jawa Barat,Bogor,Cisarua,wisata,sedang,masak,wisatawan,Restoran Sunda
+Jawa Barat,Cirebon,Harjamukti,pasar,kecil,dagang,semua_kalangan,Toko Frozen Food
+DI Yogyakarta,Sleman,Depok,kampus,kecil,masak,mahasiswa,Burger Mahasiswa
+DI Yogyakarta,Sleman,Ngaglik,perumahan,sedang,teknologi,keluarga,Jasa Instalasi Internet
+DI Yogyakarta,Kota Yogyakarta,Gondokusuman,wisata,kecil,seni,wisatawan,Toko Kerajinan
+DI Yogyakarta,Bantul,Kasihan,seni,sedang,seni,anak_muda,Studio Sablon
+DKI Jakarta,Jakarta Selatan,Tebet,perumahan,besar,minuman,pekerja,Coffee Shop Premium
+DKI Jakarta,Jakarta Barat,Kebon Jeruk,industri,sedang,teknologi,pekerja,Jasa Digital Marketing
+DKI Jakarta,Jakarta Pusat,Tanah Abang,pasar,besar,dagang,pedagang,Toko Fashion Grosir
+Banten,Tangerang Selatan,Pamulang,perumahan,kecil,minuman,mahasiswa,Kedai Seblak
+Banten,Tangerang,Cikupa,industri,sedang,masak,pekerja,Warung Nasi Industri
+Bali,Denpasar,Denpasar Selatan,wisata,besar,seni,wisatawan,Bistro Wisata
+Bali,Badung,Kuta,wisata,besar,minuman,wisatawan,Beach Cafe
+Sumatera Barat,Padang,Padang Barat,wisata,sedang,masak,wisatawan,Rumah Makan Padang
+Sumatera Utara,Medan,Medan Baru,perumahan,sedang,teknologi,anak_muda,Jasa Editing Video
+Sulawesi Selatan,Makassar,Rappocini,kampus,kecil,minuman,mahasiswa,Kopi Gerobak Modern
+Kalimantan Timur,Balikpapan,Balikpapan Selatan,industri,besar,dagang,pekerja,Mini Market Modern
+Riau,Pekanbaru,Marpoyan Damai,perumahan,sedang,minuman,keluarga,Booth Thai Tea
+Lampung,Bandar Lampung,Kedaton,kampus,kecil,masak,pelajar,Mie Pedas Mahasiswa
+Aceh,Banda Aceh,Kuta Alam,wisata,sedang,masak,wisatawan,Kedai Kopi Aceh
+Nusa Tenggara Barat,Lombok Tengah,Pujut,wisata,sedang,seni,wisatawan,Toko Oleh Oleh Pantai
+Papua,Jayapura Selatan,Abepura,perumahan,kecil,dagang,keluarga,Toko Sembako Modern
+Jawa Tengah,Surakarta,Banjarsari,kampus,kecil,minuman,mahasiswa,Kopi Literan Mahasiswa
+Jawa Tengah,Surakarta,Jebres,kampus,kecil,seni,pelajar,Jasa Editing Tugas
+Jawa Tengah,Surakarta,Laweyan,perumahan,sedang,jahit,keluarga,Tailor Rumahan
+Jawa Tengah,Semarang,Tembalang,kampus,kecil,teknologi,mahasiswa,Jasa Install Laptop
+Jawa Timur,Malang,Lowokwaru,kampus,kecil,teknologi,mahasiswa,Jasa Print dan Fotocopy
+Jawa Barat,Bandung,Coblong,kampus,kecil,minuman,mahasiswa,Kedai Matcha Modern
+DI Yogyakarta,Sleman,Depok,kampus,kecil,seni,mahasiswa,Studio Foto Mahasiswa
+DKI Jakarta,Jakarta Selatan,Kemang,anak_muda,besar,seni,anak_muda,Cafe Estetik Instagramable
+Bali,Badung,Canggu,wisata,besar,seni,wisatawan,Cafe Coworking Digital Nomad
+Jawa Tengah,Karanganyar,Tawangmangu,wisata,kecil,masak,wisatawan,Wedang Jahe Wisata
+Jawa Tengah,Sukoharjo,Kartasura,kampus,kecil,dagang,mahasiswa,Toko ATK Mahasiswa
+Jawa Timur,Surabaya,Sukolilo,kampus,kecil,teknologi,mahasiswa,Jasa UI UX Freelance
+Jawa Barat,Depok,Cimanggis,perumahan,sedang,masak,keluarga,Catering Harian
+Banten,Tangerang Selatan,Ciputat,kampus,kecil,minuman,mahasiswa,Booth Kopi Susu
+Sumatera Utara,Medan,Medan Helvetia,pasar,sedang,dagang,semua_kalangan,Toko Buah Segar
+Sulawesi Selatan,Makassar,Tamalanrea,kampus,kecil,masak,mahasiswa,Nasi Ayam Geprek
+```
